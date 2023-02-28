@@ -205,6 +205,15 @@ progress {
   transition: 0.5s;
 }
 
+footer{
+  text-align: center;
+}
+
+footer a{
+  color: var(--color-texto);
+  background-color: unset;
+}
+
 @media(max-width:650px){
   header img{
     display: none;

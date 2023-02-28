@@ -48,9 +48,9 @@ const proyectos = [
     titulo: "Porfolio",
     descripcion:
       "Sitio web donde se pueden ver todos los proyectos que hice, las visualización de los proyectos se genera en tiempo de ejecución desde una constante por lo cual es de fácil mantenimiento.",
-    link: "2",
-    fecha: "2",
-    imagen: "",
+    link: "https://cacalo.github.io/portfolio-basico/",
+    fecha: "08/02/2023",
+    imagen: "portfolio.png",
     tecnologias: ["HTML", "CSS", "Javascript"],
   },
 ];
