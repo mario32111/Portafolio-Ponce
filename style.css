@@ -12,7 +12,6 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: grid;
   grid-template-columns: 220px 1fr;
-  gap: 20px;
   grid-template-areas: 
     "aside header"
     "aside main"
@@ -32,6 +31,7 @@ p, span, h3{
 }
 
 header{
+  margin-left: 20px;
   grid-area: header;
   background-image: url("./img/fondo.png");
   background-color: #73b091;
@@ -57,7 +57,7 @@ header img{
 
 main{
   grid-area: main;
-  margin-right: 20px;
+  margin: 0 20px;
 }
 
 #proyectosContainer{
@@ -215,6 +215,10 @@ footer a{
 }
 
 @media(max-width:650px){
+  header{
+    margin-left: unset;
+    border-radius: unset;
+  }
   header img{
     display: none;
   }
