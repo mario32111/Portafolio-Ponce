@@ -53,6 +53,61 @@ const proyectos = [
     imagen: "portfolio.png",
     tecnologias: ["HTML", "CSS", "Javascript"],
   },
+  {
+    titulo: "Ruelta personalizable",
+    descripcion:
+      "Herramienta para generar un sorteo entre opciones y visualizarlo como si fuese una ruleta. Para practicar eventos y para demostrar el uso que puede tener la matemática en un proyecto.",
+    link: "https://cacalo.github.io/Ruleta-cusomizable/",
+    fecha: "08/02/2023",
+    imagen: "ruleta.png",
+    tecnologias: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    titulo: "Reloj digital",
+    descripcion:
+      "Práctica en donde usamos limitaciones en el código para programar algo 'sensillo' de una manera más compleja, terminando en un reloj programado segmento a segmento. Se usa mucho los distintos tipos de posicionamiento básicos, el relativo y el absoluto.",
+    link: "https://cacalo.github.io/reloj-digital/",
+    fecha: "08/02/2023",
+    imagen: "reloj digital.png",
+    tecnologias: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    titulo: "Herramienta para un 'amigo invisible'",
+    descripcion:
+      "Herramienta que nos permite gestionar varios sorteos de amigos invisibles (una actividad en donde se hacen regalos entre grupos de amigos). Está creada pensada en su eso en teléfonos.",
+    link: "https://amigo-inivisible.netlify.app/",
+    fecha: "08/02/2023",
+    imagen: "amigo invisible.png",
+    tecnologias: ["Angular", "Ionic", "Typescript"],
+  },
+  ,
+  {
+    titulo: "Ta-Te-Ti",
+    descripcion:
+      "Proyecto sencillo de un juego de Ta-te-ti, en donde vemos lo básico de algoritmos y generamos uno para detectar si algún jugador ganó la partida.",
+    link: "https://cacalo.github.io/Ta-Te-Ti/",
+    fecha: "08/02/2023",
+    imagen: "tateti.png",
+    tecnologias: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    titulo: "Calculadora",
+    descripcion:
+      "Proyecto de práctica de calculadora sencilla.",
+    link: "https://cacalo.github.io/calculadora-basica/",
+    fecha: "08/02/2023",
+    imagen: "calculadora.png",
+    tecnologias: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    titulo: "Página sencilla",
+    descripcion:
+      "Proyecto orientado para que alguien que esté dando sus primeros pasos en el desarrollo web se pueda copiar",
+    link: "https://cacalo.github.io/introduccion-basica-html-css/",
+    fecha: "08/02/2023",
+    imagen: "introduccion basica.png",
+    tecnologias: ["HTML", "CSS", "Javascript"],
+  },
 ];
 
 const informacionPersonal = {
