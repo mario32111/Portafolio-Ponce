@@ -1,10 +1,5 @@
 const proyectosContainer = document.getElementById("proyectosContainer");
 const aside = document.getElementsByTagName("aside")[0];
-console.log(aside)
-// const presentacionContainer = document.getElementById("presentacion");
-// const idiomasContainer = document.getElementById("idiomas");
-// const tecnologiasContainer = document.getElementById("tecnologias");
-// const linksContainer = document.getElementById("links");
 
 const getTecnologias = (tecnologias) => {
   let res = "";
@@ -15,7 +10,7 @@ const getTecnologias = (tecnologias) => {
 };
 
 const getProyecto = (proyecto) => `
-  <img src='img/proyectos/${proyecto.imagen}' alt='${proyecto.titulo}'>
+  <img src='img/proyectos/${proyecto.imagen}' alt='${proyecto.titulo} loading="lazy"'>
   <div>
     <h3>${proyecto.titulo}</h3>
     <p>${proyecto.descripcion}</p>
@@ -31,7 +26,6 @@ const makePresentacion = () => {
     <img src="${informacionPersonal.imagen}">
   `
   informacionPersonal.otros.forEach(dato => {
-    console.log(dato, dato[0],dato[1])
     nuevaPresentación.innerHTML += `
     <div>
       <span>${dato[0]}:</span>
@@ -75,9 +69,7 @@ const makeRedes = () => {
   const nuevoRedes = document.createElement("div");
   nuevoRedes.id = "redes";
   informacionPersonal.redes.forEach(dato => {
-    console.log(dato, dato[0],dato[1])
     if(dato[1]!== ""){
-
       nuevoRedes.innerHTML += `
       <a href=${dato[1]} target="_blank">
         <img src=${getIconoRed(dato[0])}>
@@ -90,7 +82,6 @@ const makeRedes = () => {
 
 const getIconoRed = (red)=>{
   const urlBase = "img/iconos/";
-  console.log("ICONO BUSCADO")
   switch(red){
     case "instagram":
       return urlBase+"instagram.svg";
@@ -116,7 +107,6 @@ proyectos.forEach((proyecto) => {
   nuevoProyecto.classList = "tarjeta";
   nuevoProyecto.innerHTML = getProyecto(proyecto);
   proyectosContainer.appendChild(nuevoProyecto);
-  console.log(nuevoProyecto);
 });
 makePresentacion();
 makeIdiomas();
