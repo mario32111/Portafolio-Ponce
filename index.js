@@ -21,7 +21,7 @@ const getProyecto = (proyecto) => `
 
 const makePresentacion = () => {
   const nuevaPresentación = document.createElement("div");
-  nuevaPresentación.id = "presentacion";
+  nuevaPresentación.classList = "presentacion";
   nuevaPresentación.innerHTML +=`
     <img src="${informacionPersonal.imagen}">
   `
@@ -38,7 +38,7 @@ const makePresentacion = () => {
 
 const makeIdiomas = () => {
   const nuevoIdiomas = document.createElement("div");
-  nuevoIdiomas.id = "idiomas";
+  nuevoIdiomas.classList = "idiomas";
   informacionPersonal.idiomas.forEach(dato => {
     nuevoIdiomas.innerHTML += `
     <div>
@@ -103,8 +103,7 @@ const getIconoRed = (red)=>{
 //Ejecución
 proyectos.forEach((proyecto) => {
   const nuevoProyecto = document.createElement("div");
-  nuevoProyecto.id = "proyecto";
-  nuevoProyecto.classList = "tarjeta";
+  nuevoProyecto.classList = "proyecto tarjeta";
   nuevoProyecto.innerHTML = getProyecto(proyecto);
   proyectosContainer.appendChild(nuevoProyecto);
 });
