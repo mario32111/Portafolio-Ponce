@@ -135,7 +135,7 @@ const informacionPersonal = {
   ],
   tecnologias: [
     ["Html", 9],["Css", 8],["Javascript", 9],["Typescript", 8],["Angular", 8
-    ],["Node",6],["Python",5],["C#",3]
+    ],["Ionic",7],["Node",6],["Python",5],["C#",3]
   ],
   redes: [
     ["github", "https://github.com/cacalo"],
