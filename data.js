@@ -1,5 +1,14 @@
 const proyectos = [
   {
+    titulo: "Compositor online de música",
+    descripcion:
+      "Página web con compositor online de música. Front y Back completos hechos por mí.",
+    link: "https://musicboxmelodies.com/",
+    fecha: "01/01/2022",
+    imagen: "mbm.png",
+    tecnologias: ["Angular", "Typescript", "SCSS", "NodeJs","GraphQL","ToneJs","Paypal","Social Login"],
+  },
+  {
     titulo: "Pokédex",
     descripcion:
       "Herramienta para ver información de distintos pokémon, inspirada en la pokedex de pokemon diamante brillante. Obtiene los datos de una API.",
