@@ -4,7 +4,7 @@ const aside = document.getElementsByTagName("aside")[0];
 const getTecnologias = (tecnologias) => {
   let res = "";
   tecnologias.forEach((tecnologia) => {
-    res += `<span class='tecnologia'>${tecnologia}</span>`;
+    res += `<span class='tecnologia'>${tecnologia}</span> `;
   });
   return res;
 };
