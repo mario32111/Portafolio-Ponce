@@ -8,6 +8,16 @@ const proyectos = [
     imagen: "mbm.png",
     tecnologias: ["Angular", "Typescript", "SCSS", "NodeJs","GraphQL","ToneJs","Paypal","Social Login"],
   },
+  ,
+  {
+    titulo: "Landing puntoJson",
+    descripcion:
+      "Landing del canal de YouTube puntoJson",
+    link: "https://puntojson.com/",
+    fecha: "22/03/2023",
+    imagen: "paginaoficial.png",
+    tecnologias: ["Angular", "Typescript", "SCSS"],
+  },
   {
     titulo: "Pokédex",
     descripcion:
