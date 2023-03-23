@@ -8,7 +8,15 @@ const proyectos = [
     imagen: "mbm.png",
     tecnologias: ["Angular", "Typescript", "SCSS", "NodeJs","GraphQL","ToneJs","Paypal","Social Login"],
   },
-  ,
+  {
+    titulo: "Pong",
+    descripcion:
+      "Landing del canal de YouTube puntoJson",
+    link: "https://cacalo.github.io/pong-html/",
+    fecha: "29/03/2023",
+    imagen: "pong.png",
+    tecnologias: ["Javascript"],
+  },
   {
     titulo: "Landing puntoJson",
     descripcion:
