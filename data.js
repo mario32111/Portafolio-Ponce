@@ -20,7 +20,7 @@ const proyectos = [
   {
     titulo: "Curso Front end con Angular",
     descripcion:
-      "Curso que se compone de 18 videos de aproximadamente 45min. de duración en donde enseño como crear aplicaciones web utilizando Angular.",
+      "Curso que se compone de 8 horas de puro contenido separado en 17 videos en donde enseño como crear aplicaciones web utilizando Angular.",
     link: "https://www.youtube.com/playlist?list=PL3Qv7aeTNq0eChWdLTbxelz-5d6ZTBp3i",
     fecha: "01/06/2023",
     imagen: "curso_angular_1.png",
