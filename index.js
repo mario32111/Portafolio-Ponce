@@ -25,6 +25,9 @@ const makePresentacion = () => {
   nuevaPresentación.innerHTML +=`
     <img src="${informacionPersonal.imagen}">
   `
+  nuevaPresentación.innerHTML += `
+  <h2>${informacionPersonal.nombre}<h2>
+  `
   informacionPersonal.otros.forEach(dato => {
     nuevaPresentación.innerHTML += `
     <div>

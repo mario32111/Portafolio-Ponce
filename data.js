@@ -174,7 +174,7 @@ const proyectos = [
 ];
 
 const informacionPersonal = {
-  nombre: "Calo",
+  nombre: "Gonzalo Bechara Baladi",
   subtitulo: "Desarrollador web",
   imagen: "img/calo1.png",
   otros: [
