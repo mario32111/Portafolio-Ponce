@@ -1,5 +1,41 @@
 const proyectos = [
   {
+    titulo: "CRM personalizado",
+    descripcion:
+      "CRM creado desde cero para administrar la relación con los clientes de una empresa de seguros. Incluye la gestión de leads desde distintos roles, parametrización viva, roles y permisos.",
+    link: "",
+    fecha: "01/12/2023",
+    imagen: "NDA.png",
+    tecnologias: ["Angular",""],
+  },
+  {
+    titulo: "Conector Facebook Ads => Engage CRM",
+    descripcion:
+      "Servicio web que permite sincronizar los leads de una campaña de marketing de Facebook Ads con un CRM llamado Engage.",
+    link: "",
+    fecha: "01/08/2023",
+    imagen: "NDA.png",
+    tecnologias: ["HTML","CSS","Javascript"],
+  },
+  {
+    titulo: "Curso Front end con Angular",
+    descripcion:
+      "Curso que se compone de 18 videos de aproximadamente 45min. de duración en donde enseño como crear aplicaciones web utilizando Angular.",
+    link: "https://www.youtube.com/playlist?list=PL3Qv7aeTNq0eChWdLTbxelz-5d6ZTBp3i",
+    fecha: "01/06/2023",
+    imagen: "curso_angular_1.png",
+    tecnologias: ["HTML","CSS","Javascript"],
+  },
+  {
+    titulo: "Cotizador comercial",
+    descripcion:
+      "Herramienta online que permite cotizar servicios a distintos clientes, hecho para una empresa masiva.",
+    link: "",
+    fecha: "01/06/2023",
+    imagen: "NDA.png",
+    tecnologias: ["HTML","CSS","Javascript"],
+  },
+  {
     titulo: "Compositor online de música",
     descripcion:
       "Página web con compositor online de música. Front y Back completos hechos por mí.",
@@ -11,7 +47,7 @@ const proyectos = [
   {
     titulo: "Pong",
     descripcion:
-      "Landing del canal de YouTube puntoJson",
+      "Creación de un juego sencillo estilo Pong, usando programación orientada a objetos.",
     link: "https://cacalo.github.io/pong-html/",
     fecha: "29/03/2023",
     imagen: "pong.png",
