@@ -9,7 +9,7 @@ const proyectos = [
     tecnologias: ["Angular",""],
   },
   {
-    titulo: "Conector Facebook Ads => Engage CRM",
+    titulo: "Conector Facebook Ads → Engage CRM",
     descripcion:
       "Servicio web que permite sincronizar los leads de una campaña de marketing de Facebook Ads con un CRM llamado Engage.",
     link: "",
