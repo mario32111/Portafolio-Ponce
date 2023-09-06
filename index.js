@@ -16,7 +16,8 @@ const getProyecto = (proyecto) => `
     <p>${proyecto.descripcion}</p>
     <p>Tecnologías: ${getTecnologias(proyecto.tecnologias)}</p>
   </div>
-  <a href="${proyecto.link}" target="_blank">Ver proyecto</a>
+
+  <a ${proyecto.link ? 'href='+proyecto.link : "class=disabled"} target="_blank">Ver proyecto</a>
 `;
 
 const makePresentacion = () => {
@@ -25,9 +26,9 @@ const makePresentacion = () => {
   nuevaPresentación.innerHTML +=`
     <img src="${informacionPersonal.imagen}">
   `
-  nuevaPresentación.innerHTML += `
-  <h2>${informacionPersonal.nombre}<h2>
-  `
+  // nuevaPresentación.innerHTML += `
+  // <h2>${informacionPersonal.nombre}<h2>
+  // `
   informacionPersonal.otros.forEach(dato => {
     nuevaPresentación.innerHTML += `
     <div>

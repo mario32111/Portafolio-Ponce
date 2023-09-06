@@ -103,6 +103,10 @@ a{
   text-decoration: none;
   font-weight: bold;
 }
+a.disabled{
+  background-color: rgb(195, 195, 195);
+  text-decoration:line-through;
+}
 
 .proyecto a{
   display: block;
