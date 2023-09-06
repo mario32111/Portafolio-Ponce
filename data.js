@@ -9,6 +9,15 @@ const proyectos = [
     tecnologias: ["Angular",""],
   },
   {
+    titulo: "Curso Front end con Angular",
+    descripcion:
+      "Curso que se compone de 8 horas de puro contenido separado en 17 videos en donde enseño como crear aplicaciones web utilizando Angular.",
+    link: "https://www.youtube.com/playlist?list=PL3Qv7aeTNq0eChWdLTbxelz-5d6ZTBp3i",
+    fecha: "01/06/2023",
+    imagen: "curso_angular_1.png",
+    tecnologias: ["HTML","CSS","Javascript"],
+  },
+  {
     titulo: "Conector Facebook Ads → Engage CRM",
     descripcion:
       "Servicio web que permite sincronizar los leads de una campaña de marketing de Facebook Ads con un CRM llamado Engage.",
@@ -18,13 +27,13 @@ const proyectos = [
     tecnologias: ["HTML","CSS","Javascript"],
   },
   {
-    titulo: "Curso Front end con Angular",
+    titulo: "Conector Wordpress Contact Form → Engage CRM",
     descripcion:
-      "Curso que se compone de 8 horas de puro contenido separado en 17 videos en donde enseño como crear aplicaciones web utilizando Angular.",
-    link: "https://www.youtube.com/playlist?list=PL3Qv7aeTNq0eChWdLTbxelz-5d6ZTBp3i",
-    fecha: "01/06/2023",
-    imagen: "curso_angular_1.png",
-    tecnologias: ["HTML","CSS","Javascript"],
+      "Plugin para wordpress que conecta los datos de un formulario de registro con los leads de Engage CRM",
+    link: "",
+    fecha: "01/08/2023",
+    imagen: "NDA.png",
+    tecnologias: ["PHP"],
   },
   {
     titulo: "Cotizador comercial",
