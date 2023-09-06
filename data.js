@@ -2,7 +2,7 @@ const proyectos = [
   {
     titulo: "CRM personalizado",
     descripcion:
-      "CRM creado desde cero para administrar la relación con los clientes de una empresa de seguros. Incluye la gestión de leads desde distintos roles, parametrización viva, roles y permisos.",
+      "CRM creado desde cero para administrar la relación con los clientes de una empresa de seguros. Incluye la gestión de leads desde distintos roles, parametrización viva, roles y permisos. El proyecto está actualmente en curso.",
     link: "",
     fecha: "01/12/2023",
     imagen: "NDA.png",
@@ -47,7 +47,7 @@ const proyectos = [
   {
     titulo: "Pong",
     descripcion:
-      "Creación de un juego sencillo estilo Pong, usando programación orientada a objetos.",
+      "Creación de un juego sencillo estilo Pong, hecho para explicar el uso de la programación orientada a objetos.",
     link: "https://cacalo.github.io/pong-html/",
     fecha: "29/03/2023",
     imagen: "pong.png",
@@ -143,15 +143,67 @@ const proyectos = [
     imagen: "amigo invisible.png",
     tecnologias: ["Angular", "Ionic", "Typescript"],
   },
-  ,
+  
   {
-    titulo: "Ta-Te-Ti",
+    titulo: "Página Shopify",
     descripcion:
-      "Proyecto sencillo de un juego de Ta-te-ti, en donde vemos lo básico de algoritmos y generamos uno para detectar si algún jugador ganó la partida.",
-    link: "https://cacalo.github.io/Ta-Te-Ti/",
+      "Copia de la landing en front del sitio web de Shopify.dev",
+    link: "https://cacalo.github.io/shopify.dev-clone/",
+    fecha: "05/03/2023",
+    imagen: "shopify.png",
+    tecnologias: ["HTML", "CSS"],
+  },
+  {
+    titulo: "Página Abstract",
+    descripcion:
+      "Copia de la landing en front del sitio web help.abstract.com",
+    link: "https://cacalo.github.io/Abstract---Copia-sitio-web/",
+    fecha: "07/07/2023",
+    imagen: "abstract.png",
+    tecnologias: ["HTML", "CSS"],
+  },
+ 
+  {
+    titulo: "Prototipo jugable de juego 3D para teléfonos",
+    descripcion:
+      "Proyecto presentado como proyecto final del curso de HardvardX CS50G: Introduction to game design, en donde trabajé sólo.",
+    link: "https://youtu.be/eyWDOrnd4is",
+    fecha: "23/09/2020",
+    imagen: "cs50g.png",
+    tecnologias: ["C#","Unity"],
+  },
+  {
+    titulo: "Proyectos de práctica de game design",
+    descripcion:
+      "Proyectos de desarrollo de videojuegos donde en cada uno hice distintas tareas de programación.",
+    link: "https://www.youtube.com/playlist?list=PLUDCcCQZZvrYtu83ASqPK-tphTrJSkZek",
+    fecha: "01/07/2020",
+    imagen: "cs50g-2.png",
+    tecnologias: ["Lua","Love2D","C#","Unity"],
+  },
+  {
+    titulo: "Automatización de subida de videos a YouTube",
+    descripcion:
+      "Script en Python, que junto al script de creación de videos, me permite crear y subir a internet alrededor de 20 videos por hora de trabajo.",
     fecha: "08/02/2023",
-    imagen: "tateti.png",
-    tecnologias: ["HTML", "CSS", "Javascript"],
+    imagen: "python.png",
+    tecnologias: ["Python"],
+  },
+  {
+    titulo: "Herramienta de gestión de trabajos pendientes",
+    descripcion:
+      "Script en python, que acelera mi productividad en musicboxmelodies.com creando carpetas de proyecto para proyectos nuevos y envía los finalizados por mail a los clientes. Dejando registro en su respectiva base de datos.",
+    fecha: "08/01/2019",
+    imagen: "python.png",
+    tecnologias: ["Python","Pyautogui","Gspread"],
+  },
+  {
+    titulo: "Script de Adobe After Effects",
+    descripcion:
+      "Script en Javascript, que me ayuda crear videos rapidamente completando datos preescritos en una base de datos dentro de mis videos.",
+    fecha: "08/01/2020",
+    imagen: "after-effects.jpg",
+    tecnologias: ["Javascript","JSX"],
   },
   {
     titulo: "Calculadora",
@@ -160,6 +212,15 @@ const proyectos = [
     link: "https://cacalo.github.io/calculadora-basica/",
     fecha: "08/02/2023",
     imagen: "calculadora.png",
+    tecnologias: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    titulo: "Ta-Te-Ti",
+    descripcion:
+      "Proyecto sencillo de un juego de Ta-te-ti, en donde vemos lo básico de algoritmos y generamos uno para detectar si algún jugador ganó la partida.",
+    link: "https://cacalo.github.io/Ta-Te-Ti/",
+    fecha: "08/02/2023",
+    imagen: "tateti.png",
     tecnologias: ["HTML", "CSS", "Javascript"],
   },
   {
