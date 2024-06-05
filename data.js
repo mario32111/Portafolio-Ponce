@@ -1,252 +1,82 @@
 const proyectos = [
   {
-    titulo: "CRM personalizado",
+    titulo: "Practica 1",
     descripcion:
-      "CRM creado desde cero para administrar la relación con los clientes de una empresa de seguros. Incluye la gestión de leads desde distintos roles, parametrización viva, roles y permisos. El proyecto está actualmente en curso.",
-    link: "",
+      "La primera practica de la unidad 3, consiste en hacer el uso de tablas y sus celdas prara almacenar datos e imagenes",
+    link: "htmlprac.atwebpages.com/practicas/practicas/practica1",
     fecha: "01/12/2023",
-    imagen: "NDA.png",
-    tecnologias: ["Angular",""],
+    imagen: "p2.png",
+    tecnologias: ["HTML",""],
   },
   {
-    titulo: "Curso Front end con Angular",
+    titulo: "Practica 2",
     descripcion:
-      "Curso que se compone de 8 horas de puro contenido separado en 17 videos en donde enseño como crear aplicaciones web utilizando Angular.",
-    link: "https://www.youtube.com/playlist?list=PL3Qv7aeTNq0eChWdLTbxelz-5d6ZTBp3i",
-    fecha: "01/06/2023",
-    imagen: "curso_angular_1.png",
-    tecnologias: ["HTML","CSS","Javascript"],
+      "Esta practica es algo sencilla, tan solo habia que hacer uso del lorem y de las listas ordenadas y enumeradas para darle algo de formato al texto",
+    link: "htmlprac.atwebpages.com/practicas/practicas/practica2",
+    fecha: "01/12/2023",
+    imagen: "p1.png",
+    tecnologias: ["HTML",""],
   },
   {
-    titulo: "Conector Facebook Ads → Engage CRM",
+    titulo: "Practica 3",
     descripcion:
-      "Servicio web que permite sincronizar los leads de una campaña de marketing de Facebook Ads con un CRM llamado Engage.",
-    link: "",
-    fecha: "01/08/2023",
-    imagen: "NDA.png",
-    tecnologias: ["HTML","CSS","Javascript"],
+      "Practica en la que se debia replicar una estructura propuesta html por el docente, aqui se emepezo a hacer uso de las hojas de estilo",
+    link: "htmlprac.atwebpages.com/practicas/practicas/practica3",
+    fecha: "01/12/2023",
+    imagen: "p3.png",
+    tecnologias: ["HTML","CSS"],
   },
   {
-    titulo: "Conector Wordpress Contact Form → Engage CRM",
+    titulo: "Practica 4",
     descripcion:
-      "Plugin para wordpress que conecta los datos de un formulario de registro con los leads de Engage CRM",
-    link: "",
-    fecha: "01/08/2023",
-    imagen: "NDA.png",
-    tecnologias: ["PHP"],
+      "En esta practica habia que desarrollar la vista principal de una pagina de tema libre, en este caso se eligio la tematica de una tienda online en la que se desarrollo la maquetacion la vista principal de dicha, ademas de que debia ser desarrollada desde cero es decir sin hacer uso de plantillas",
+    link: "htmlprac.atwebpages.com/practicas/practicas/practica4/view",
+    fecha: "01/12/2023",
+    imagen: "p4.png",
+    tecnologias: ["HTML","CSS"],
   },
   {
-    titulo: "Cotizador comercial",
+    titulo: "Practica 5",
     descripcion:
-      "Herramienta online que permite cotizar servicios a distintos clientes, hecho para una empresa masiva.",
-    link: "",
-    fecha: "01/06/2023",
-    imagen: "NDA.png",
-    tecnologias: ["HTML","CSS","Javascript"],
+      "En esta practica se nos dio a conocer una tecnologia usada para desarrollar la parte visual de una pagina web mucho mas rapido, esta herramienta es bootstrap, que a traves de plantillas se logran crear paginas bastante bien disenadas",
+    link: "htmlprac.atwebpages.com/practicas/practicas/practica5/startbootstrap-personal-gh-pages",
+    fecha: "01/12/2023",
+    imagen: "p5.png",
+    tecnologias: ["HTML,CSS,JS, BOOTSTRAP"],
   },
   {
-    titulo: "Compositor online de música",
+    titulo: "Practica 6",
     descripcion:
-      "Página web con compositor online de música. Front y Back completos hechos por mí.",
-    link: "https://musicboxmelodies.com/",
-    fecha: "01/01/2022",
-    imagen: "mbm.png",
-    tecnologias: ["Angular", "Typescript", "SCSS", "NodeJs","GraphQL","ToneJs","Paypal","Social Login"],
+      "En esta practica haciendo uso de los formularios de html, se debian extraer los datos de dicho formulario con un arhivo php para procesar esos datos, y con esos datos crear una tarjeta de presentacion",
+    link: "htmlprac.atwebpages.com/practicas/practicas/practica6/view/",
+    fecha: "01/12/2023",
+    imagen: "p6.png",
+    tecnologias: ["HTML","CSS","PHP",],
   },
   {
-    titulo: "Pong",
+    titulo: "Practica 7",
     descripcion:
-      "Creación de un juego sencillo estilo Pong, hecho para explicar el uso de la programación orientada a objetos.",
-    link: "https://cacalo.github.io/pong-html/",
-    fecha: "29/03/2023",
-    imagen: "pong.png",
-    tecnologias: ["Javascript"],
+    "En esta practica habia que consumir una API REST y mostrar los datos en un archivo html",
+    link: "htmlprac.atwebpages.com/practicas/practicas/practica7/view",
+    fecha: "01/12/2023",
+    imagen: "p7.png",
+    tecnologias: ["HTML","CSS","JS",],
   },
   {
-    titulo: "Landing puntoJson",
+    titulo: "Practica 8",
     descripcion:
-      "Landing del canal de YouTube puntoJson",
-    link: "https://puntojson.com/",
-    fecha: "22/03/2023",
-    imagen: "paginaoficial.png",
-    tecnologias: ["Angular", "Typescript", "SCSS"],
-  },
-  {
-    titulo: "Pokédex",
-    descripcion:
-      "Herramienta para ver información de distintos pokémon, inspirada en la pokedex de pokemon diamante brillante. Obtiene los datos de una API.",
-    link: "https://pokedex-puntojson.netlify.app/",
-    fecha: "29/02/2023",
-    imagen: "pokedex.jpg",
-    tecnologias: ["Angular", "Typescript", "SCSS", "PokeApi"],
-  },
-  {
-    titulo: "Calo responde",
-    descripcion:
-      "Juego para hacer creer a la gente de que hay una inteligencia artificial que sabe todo sobre tí.",
-    link: "https://cacalo.github.io/Calo-responde/",
-    fecha: "29/02/2023",
-    imagen: "calo responde.png",
-    tecnologias: ["HTML","CSS","Javascript"],
-  },
-  {
-    titulo: "Mega curso HTML",
-    descripcion:
-      "Curso completo de HTML, en donde explico desde lo más básico (¿Qué es una etiqueta?) hasta conceptos complejos (ARIA).",
-    link: "https://youtu.be/xF5HIi84Few",
-    fecha: "29/02/2023",
-    imagen: "html mega curso.png",
-    tecnologias: ["HTML"],
-  },
-  {
-    titulo: "Test de mecanografía",
-    descripcion:
-      "Juego para ver quién puede escribir más rápido. Se te da un minuto y tenés que escribir la mayor cantidad de letras correctas evitando escribir letras incorrectas.",
-    link: "https://cacalo.github.io/test-mecanografia/",
-    fecha: "29/02/2023",
-    imagen: "mecanografia.png",
-    tecnologias: ["HTML","CSS","Javascript","APIs"],
-  },
-  {
-    titulo: "Contador de truco",
-    descripcion:
-      "Herramienta para ver información de distintos pokémon, inspirada en la pokedex de pokemon diamante brillante. Obtiene los datos de una API.",
-    link: "https://cacalo.github.io/Contador-truco/",
-    fecha: "29/02/2023",
-    imagen: "truco.png",
-    tecnologias: ["HTML","CSS","Javascript"],
-  },
-  {
-    titulo: "Porfolio",
-    descripcion:
-      "Sitio web donde se pueden ver todos los proyectos que hice, las visualización de los proyectos se genera en tiempo de ejecución desde una constante por lo cual es de fácil mantenimiento.",
-    link: "https://cacalo.github.io/portfolio-basico/",
-    fecha: "08/02/2023",
-    imagen: "portfolio.png",
-    tecnologias: ["HTML", "CSS", "Javascript"],
-  },
-  {
-    titulo: "Ruelta personalizable",
-    descripcion:
-      "Herramienta para generar un sorteo entre opciones y visualizarlo como si fuese una ruleta. Para practicar eventos y para demostrar el uso que puede tener la matemática en un proyecto.",
-    link: "https://cacalo.github.io/Ruleta-cusomizable/",
-    fecha: "08/02/2023",
-    imagen: "ruleta.png",
-    tecnologias: ["HTML", "CSS", "Javascript"],
-  },
-  {
-    titulo: "Reloj digital",
-    descripcion:
-      "Práctica en donde usamos limitaciones en el código para programar algo 'sensillo' de una manera más compleja, terminando en un reloj programado segmento a segmento. Se usa mucho los distintos tipos de posicionamiento básicos, el relativo y el absoluto.",
-    link: "https://cacalo.github.io/reloj-digital/",
-    fecha: "08/02/2023",
-    imagen: "reloj digital.png",
-    tecnologias: ["HTML", "CSS", "Javascript"],
-  },
-  {
-    titulo: "Herramienta para un 'amigo invisible'",
-    descripcion:
-      "Herramienta que nos permite gestionar varios sorteos de amigos invisibles (una actividad en donde se hacen regalos entre grupos de amigos). Está creada pensada en su eso en teléfonos.",
-    link: "https://amigo-inivisible.netlify.app/",
-    fecha: "08/02/2023",
-    imagen: "amigo invisible.png",
-    tecnologias: ["Angular", "Ionic", "Typescript"],
-  },
-  
-  {
-    titulo: "Página Shopify",
-    descripcion:
-      "Copia de la landing en front del sitio web de Shopify.dev",
-    link: "https://cacalo.github.io/shopify.dev-clone/",
-    fecha: "05/03/2023",
-    imagen: "shopify.png",
-    tecnologias: ["HTML", "CSS"],
-  },
-  {
-    titulo: "Página Abstract",
-    descripcion:
-      "Copia de la landing en front del sitio web help.abstract.com",
-    link: "https://cacalo.github.io/Abstract---Copia-sitio-web/",
-    fecha: "07/07/2023",
-    imagen: "abstract.png",
-    tecnologias: ["HTML", "CSS"],
-  },
- 
-  {
-    titulo: "Prototipo jugable de juego 3D para teléfonos",
-    descripcion:
-      "Proyecto presentado como proyecto final del curso de HardvardX CS50G: Introduction to game design, en donde trabajé sólo.",
-    link: "https://youtu.be/eyWDOrnd4is",
-    fecha: "23/09/2020",
-    imagen: "cs50g.png",
-    tecnologias: ["C#","Unity"],
-  },
-  {
-    titulo: "Proyectos de práctica de game design",
-    descripcion:
-      "Proyectos de desarrollo de videojuegos donde en cada uno hice distintas tareas de programación.",
-    link: "https://www.youtube.com/playlist?list=PLUDCcCQZZvrYtu83ASqPK-tphTrJSkZek",
-    fecha: "01/07/2020",
-    imagen: "cs50g-2.png",
-    tecnologias: ["Lua","Love2D","C#","Unity"],
-  },
-  {
-    titulo: "Automatización de subida de videos a YouTube",
-    descripcion:
-      "Script en Python, que junto al script de creación de videos, me permite crear y subir a internet alrededor de 20 videos por hora de trabajo.",
-    fecha: "08/02/2023",
-    imagen: "python.png",
-    tecnologias: ["Python"],
-  },
-  {
-    titulo: "Herramienta de gestión de trabajos pendientes",
-    descripcion:
-      "Script en python, que acelera mi productividad en musicboxmelodies.com creando carpetas de proyecto para proyectos nuevos y envía los finalizados por mail a los clientes. Dejando registro en su respectiva base de datos.",
-    fecha: "08/01/2019",
-    imagen: "python.png",
-    tecnologias: ["Python","Pyautogui","Gspread"],
-  },
-  {
-    titulo: "Script de Adobe After Effects",
-    descripcion:
-      "Script en Javascript, que me ayuda crear videos rapidamente completando datos preescritos en una base de datos dentro de mis videos.",
-    fecha: "08/01/2020",
-    imagen: "after-effects.jpg",
-    tecnologias: ["Javascript","JSX"],
-  },
-  {
-    titulo: "Calculadora",
-    descripcion:
-      "Proyecto de práctica de calculadora sencilla.",
-    link: "https://cacalo.github.io/calculadora-basica/",
-    fecha: "08/02/2023",
-    imagen: "calculadora.png",
-    tecnologias: ["HTML", "CSS", "Javascript"],
-  },
-  {
-    titulo: "Ta-Te-Ti",
-    descripcion:
-      "Proyecto sencillo de un juego de Ta-te-ti, en donde vemos lo básico de algoritmos y generamos uno para detectar si algún jugador ganó la partida.",
-    link: "https://cacalo.github.io/Ta-Te-Ti/",
-    fecha: "08/02/2023",
-    imagen: "tateti.png",
-    tecnologias: ["HTML", "CSS", "Javascript"],
-  },
-  {
-    titulo: "Página sencilla",
-    descripcion:
-      "Proyecto orientado para que alguien que esté dando sus primeros pasos en el desarrollo web se pueda copiar",
-    link: "https://cacalo.github.io/introduccion-basica-html-css/",
-    fecha: "08/02/2023",
-    imagen: "introduccion basica.png",
-    tecnologias: ["HTML", "CSS", "Javascript"],
+    "En esta practica habia que hacer una maquetacion de unas tarjetas meteorologicas, ademas los datos de estas tarjetas deben ser obtenidos de una API-REST, de tal manera que sea informacion proveniente de un servidor y en tiempo real",
+    link: "htmlprac.atwebpages.com/practicas/practicas/practica8/view",
+    fecha: "01/12/2023",
+    imagen: "p8.png",
+    tecnologias: ["HTML","CSS","JS",],
   },
 ];
 
 const informacionPersonal = {
   nombre: "Gonzalo Bechara Baladi",
   subtitulo: "Desarrollador web",
-  imagen: "img/calo1.png",
+  imagen: "img/yo.png",
   otros: [
     ["Nacionalidad", "Argentino"],
     [
